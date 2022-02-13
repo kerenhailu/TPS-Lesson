@@ -40,10 +40,16 @@ const Home=()=>{
     }
     return "false";
     }
-
+    const CalssAndNames=(classA?:number,...restOfNames:string[]):string[]=>{
+        if(classA){
+            return  restOfNames.sort();
+        }
+       return  restOfNames.sort().reverse();
+    }
     return(
     <div>
         {aaa("keren",undefined,undefined,"kkk","dd","ddd")}
+        class :{CalssAndNames(undefined,"ker","ede","shi","gef")}
         {Teacher("tikva","eden")}
         {SortThen4("keren",23)}<br/>
         {WithDefualt("keren","hailu")}<br/>
