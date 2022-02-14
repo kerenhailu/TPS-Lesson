@@ -48,7 +48,7 @@ const Home=()=>{
     }
     return(
     <div>
-        {aaa("keren",undefined,undefined,"kkk","dd","ddd")}
+        {/* {aaa("keren",undefined,undefined,"kkk","dd","ddd")} */}
         class :{CalssAndNames(undefined,"ker","ede","shi","gef")}
         {Teacher("tikva","eden")}
         {SortThen4("keren",23)}<br/>
